@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/button.dart';
+import 'package:flutter_application_2/date_widget.dart';
 import 'package:flutter_application_2/dialog.dart';
+import 'package:flutter_application_2/input_selection.dart';
 
 class ScaffoldWidget extends StatelessWidget {
   const ScaffoldWidget({super.key});
@@ -35,10 +38,12 @@ class ScaffoldWidget extends StatelessWidget {
               ),
             ),
           ),
-          DialogWdiget()
+          DialogWdiget(),
+          InputSelection(),
+          tanggal(),
+          
         ],
       ),
-
       bottomNavigationBar: BottomNavigationBar(
         selectedItemColor: Colors.red,
         unselectedItemColor: Colors.grey,
