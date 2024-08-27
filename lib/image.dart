@@ -7,7 +7,7 @@ class ImageWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Image(
-        image: NetworkImage('https://images.app.goo.gl/dF7CpqDmBfgw4qzu8'),
+        image: AssetImage('assets/lamin yamal.jpg'),
       ),
     );
   }
